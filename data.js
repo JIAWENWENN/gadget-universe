@@ -9,7 +9,7 @@ const products = [
     quantity: 120,
     price: 129.99,
     description: 'The central nervous system of your smart home. Control lights, thermostats, and security systems with your voice or our intuitive app. Features seamless integration with over 1000 smart devices.',
-    imageUrl: 'images/smart-hub.jpg',
+    imageUrl: '/smart-hub.jpg',
     features: ['Voice Control', 'Universal Compatibility', 'AI-driven Automation', 'Energy Saving Mode'],
   },
   {
@@ -20,7 +20,7 @@ const products = [
     quantity: 300,
     price: 49.99,
     description: 'Transform any room with over 16 million colors. Sync with your music, movies, or games for an immersive experience. Easy to install and expand.',
-    imageUrl: 'images/smart-light.jpg',
+    imageUrl: '/smart-light.jpg',
     features: ['16 Million Colors', 'Music & Video Sync', 'Scheduled Routines', 'App & Voice Control'],
   },
   {
@@ -31,7 +31,7 @@ const products = [
     quantity: 0,
     price: 249.99,
     description: 'Keyless entry for your home. Features biometric fingerprint scanning, a digital keypad, and remote access via our app. Grant temporary access to guests from anywhere.',
-    imageUrl: 'images/smart-lock.jpg',
+    imageUrl: '/smart-lock.jpg',
     features: ['Biometric Sensor', 'Remote Access', 'Guest Access Codes', 'Auto-Lock Functionality'],
   },
   // Wearables
@@ -43,7 +43,7 @@ const products = [
     quantity: 85,
     price: 399.99,
     description: 'More than just a watch. Track your fitness, manage notifications, and make payments, all from your wrist. Features a stunning always-on AMOLED display and 7-day battery life.',
-    imageUrl: 'images/smartwatch.jpg',
+    imageUrl: '/smartwatch.jpg',
     features: ['AMOLED Display', 'Advanced Health Tracking', 'NFC Payments', '7-Day Battery Life'],
   },
   {
@@ -54,7 +54,7 @@ const products = [
     quantity: 250,
     price: 179.99,
     description: 'Crystal-clear audio with adaptive noise cancellation. Enjoy up to 30 hours of playtime with the charging case. Ergonomically designed for all-day comfort.',
-    imageUrl: 'images/earbuds.jpg',
+    imageUrl: '/earbuds.jpg',
     features: ['Adaptive Noise Cancellation', '30-Hour Battery', 'Studio-Quality Sound', 'Comfortable Fit'],
   },
   {
@@ -65,7 +65,7 @@ const products = [
     quantity: 0,
     price: 129.99,
     description: 'A minimalist fitness tracker that monitors sleep, activity, and stress levels. Provides personalized insights to help you optimize your well-being.',
-    imageUrl: 'images/fitness-band.jpg',
+    imageUrl: 'fitness-band.jpg',
     features: ['24/7 Health Monitoring', 'Sleep & Stress Tracking', 'Personalized Insights', 'Water Resistant'],
   },
   // Drones
@@ -77,7 +77,7 @@ const products = [
     quantity: 40,
     price: 799.99,
     description: 'Capture breathtaking aerial footage with a 4K HDR camera. 30-minute flight time, intelligent flight modes, and a 5km transmission range.',
-    imageUrl: 'images/drone-4k.jpg',
+    imageUrl: '/drone-4k.jpg',
     features: ['4K HDR Video', '3-Axis Gimbal', 'Intelligent Flight Modes', '30-Min Flight Time'],
   },
   {
@@ -88,7 +88,7 @@ const products = [
     quantity: 25,
     price: 499.99,
     description: 'Experience the thrill of FPV racing. Reach speeds of up to 140 km/h with this agile and durable racing drone. Perfect for both beginners and pros.',
-    imageUrl: 'images/racing-drone.jpg',
+    imageUrl: '/racing-drone.jpg',
     features: ['140 km/h Top Speed', 'FPV Goggles Included', 'Carbon Fiber Frame', 'Modular Design'],
   },
   {
@@ -99,7 +99,7 @@ const products = [
     quantity: 150,
     price: 89.99,
     description: 'A fun and easy-to-fly mini drone that fits in the palm of your hand. Perfect for indoor flying and learning the basics of drone piloting.',
-    imageUrl: 'images/mini-drone.jpg',
+    imageUrl: '/mini-drone.jpg',
     features: ['Palm-sized', 'Altitude Hold', 'One-Key Takeoff/Landing', 'Propeller Guards'],
   },
   // Audio
@@ -111,7 +111,7 @@ const products = [
     quantity: 90,
     price: 299.99,
     description: '360-degree sound in a sleek, portable package. Connect via Bluetooth or Wi-Fi for multi-room audio. Water-resistant design for music anywhere.',
-    imageUrl: 'images/bluetooth-speaker.jpg',
+    imageUrl: '/bluetooth-speaker.jpg',
     features: ['360° Sound', 'Bluetooth & Wi-Fi', 'IPX7 Water-Resistant', '12-Hour Battery'],
   },
   {
@@ -122,7 +122,7 @@ const products = [
     quantity: 60,
     price: 599.99,
     description: 'Bring the cinema home with Dolby Atmos surround sound. This soundbar and wireless subwoofer combo delivers powerful, immersive audio for your movies and games.',
-    imageUrl: 'images/soundbar.jpg',
+    imageUrl: '/soundbar.jpg',
     features: ['Dolby Atmos', 'Wireless Subwoofer', '4K HDR Passthrough', 'Dialogue Enhancement'],
   },
   {
@@ -133,7 +133,7 @@ const products = [
     quantity: 110,
     price: 349.99,
     description: 'Over-ear headphones for the true audiophile. Industry-leading noise cancellation, high-resolution audio, and plush comfort for long listening sessions.',
-    imageUrl: 'images/headphones.jpg',
+    imageUrl: '/headphones.jpg',
     features: ['High-Res Audio', 'Active Noise Cancellation', '30-Hour Battery', 'Premium Comfort'],
   },
   // Gaming
@@ -145,7 +145,7 @@ const products = [
     quantity: 0,
     price: 499.99,
     description: 'The next generation of gaming is here. Experience lightning-fast load times, 4K gaming at 120fps, and a revolutionary new controller with haptic feedback.',
-    imageUrl: 'images/gaming-console.jpg',
+    imageUrl: 'gaming-console.jpg',
     features: ['4K 120fps Gaming', 'Ultra-Fast SSD', 'Haptic Feedback Controller', 'Ray Tracing Support'],
   },
   {
