@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Universe - Discover the Future of Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo" onclick="navigateTo('home')">
+                    <span class="logo-text">Gadget</span><span class="logo-accent">Universe</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><button onclick="navigateTo('home')" class="nav-link">Home</button></li>
+                        <li><button onclick="navigateTo('products')" class="nav-link">Products</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Gadget Universe. All Rights Reserved.</p>
+            <p class="footer-tagline">Innovating Your Tomorrow, Today.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
